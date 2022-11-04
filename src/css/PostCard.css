@@ -1,0 +1,75 @@
+.post-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.post-card .post-img {
+    border-radius: 10px;
+}
+
+.post-card .post-auth-img {
+    width: 35px;
+    height: 35px;
+    margin-block: auto;
+}
+
+.post-card .post-auth-name {
+    text-decoration: none;
+    color: black;
+}
+
+.post-card .post-ytb {
+    border-radius: 10px;
+    width: 498px;
+    height: 280px;
+    max-width: 100%;
+}
+
+.post-card .dropdown-toggle::after {
+    /* hide arrow */
+    display: none !important;
+}
+
+.post-card .post-cmt-info img {
+    width: 20px;
+    height: 20px;
+}
+
+.post-card .transfer-x--8{
+    transform:translateX(-8px);
+}
+.post-card .transfer-x--16{
+    transform:translateX(-16px);
+}
+
+.post-card .comment-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 32px;
+    margin-right: 8px;
+}
+
+.post-card .comment-content {
+    border-radius: 16px;
+    background-color: #EDF2F7;
+    padding: 8px 16px 8px 16px;
+}
+
+.post-card .comment-send {
+    background-color: #EDF2F7;
+    border: none;
+    border-radius: 8px;
+}
+
+.post-card .comment-input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.post-card .btn-send-cmt {
+    background-color: transparent;
+}

@@ -1,0 +1,38 @@
+.bg-top-color {
+    width: 100%;
+    height: 20px;
+    background-color: #eff2f4;
+}
+
+.navbar .search-bar {
+    background-color: #EDF2F7;
+    border: rgb(202, 202, 202) .5px solid;
+}
+
+.navbar .search-input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.navbar .nav-avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar .search-bar {
+        width: 400px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .navbar .search-bar {
+        width: 600px;
+    }
+}

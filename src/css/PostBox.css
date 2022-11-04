@@ -1,0 +1,89 @@
+.post-box{
+    background-color: white;
+    border-radius: 24px;
+    padding: 8px 8px 8px 12px;
+}
+
+.post-box .user-avatar, .post-modal .user-avatar{
+    margin-right: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.post-box .user-avatar img, .post-modal .user-avatar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+}
+
+.post-box .btn-post{
+    background-color: #EDF2F7;
+    text-align: start;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.post-box .btn-post:hover{
+    background-color: #dcebf9;
+}
+
+.post-modal {
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+    width: 500px;
+    max-height: 480px;
+    box-shadow: 0 0 32px hsl(238, 70%, 91%);
+    overflow-y: auto;
+}
+
+.post-modal .close-button {
+    cursor: pointer;
+    display: block;
+    line-height: 20px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+.post-modal textarea {
+    font-size: 20px;
+    border: none;
+}
+.post-modal textarea:focus {
+    outline: none;
+}
+
+.post-modal .btn-upload{
+    width: 36px;
+    height: 36px;
+    padding: auto;
+    margin: auto;
+    font-size: 24px;
+    border-radius: 12px;
+}
+
+.post-modal .btn-upload:hover{
+    background-color: #dbdbdb;
+}
+
+.post-modal .btn-img{
+    color: rgb(67, 175, 67);
+}
+
+.post-modal .btn-ytb{
+    color: red;
+}
+
+.form-upload-ytb{
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    width: 360px;
+    box-shadow: 0 0 32px hsl(0, 78%, 82%);
+}
+
+.form-upload-ytb > form > input:focus{
+    outline: none;
+}

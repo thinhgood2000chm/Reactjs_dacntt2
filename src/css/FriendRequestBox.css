@@ -1,0 +1,26 @@
+/* bg-white border rounded-pill px-3 */
+.friend-request .request-card{
+    background-color: white;
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.friend-request .user-avatar {
+    margin-right: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.friend-request .user-avatar img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.friend-request .btn-refuse {
+    background-color: #c1bdc1;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-left: 16px;
+}

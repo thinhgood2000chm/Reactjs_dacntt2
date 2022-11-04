@@ -1,0 +1,74 @@
+.personal-friend .card-info {
+  margin-left: 10px;
+  margin-right: 10x;
+}
+
+.personal-friend .menu {
+  margin: 25px;
+  width: 200px;
+  height: 70px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  background: #ffffffc9;
+  border-radius: 10%;
+
+}
+
+/* .personal-friend .menu-item-friend {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  height: 28px;
+  border-radius: 10%;
+  border-bottom: 1px solid rgb(187, 187, 187);
+} */
+
+/* .personal-friend .menu-item-friend:hover {
+  background-color: darkgrey;
+} */
+
+
+.personal-friend .three-dot-icon {
+  margin-right: 25px;
+}
+
+.personal-friend .tag-name {
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.personal-friend .card-img {
+  width: 80px;
+  height: 80px;
+}
+
+.text-name-friend{
+  text-decoration: none;
+  color: black;
+}
+
+.list-friend {
+  background-color: white;
+  border-radius: 12px;
+  padding: 8px;
+  height: 200px;
+  width: 300px;
+  overflow: auto;
+}
+
+.list-friend .avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.list-friend .item {
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.list-friend .item:hover {
+  background-color: rgb(218, 218, 218);
+}

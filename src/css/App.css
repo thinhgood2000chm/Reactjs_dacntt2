@@ -1,0 +1,67 @@
+body {
+    background-color: #EDF2F7;
+    /* background-color: #F0EDF5; */
+}
+
+.bg-my-color {
+    background-color: #EDF2F7 !important;
+}
+
+.fs-smaller {
+    font-size: smaller;
+}
+
+.fs-small {
+    font-size: small;
+}
+
+.fs-larger {
+    font-size: larger;
+}
+
+input::placeholder {
+    font-size: smaller;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn-link-text {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-link-text:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.over-y-auto{
+    overflow-y: auto;
+}
+
+/* breakpoint lg of bootstrap */
+@media only screen and (max-width: 992px) {
+    .md-hide {
+        display: none;
+    }
+}
+/* blur background when show popup */
+.popup-overlay{
+    background-color: rgba(200, 200, 200, 0.4) ;
+}
+
+.my-box-shadow {
+    box-shadow: 0 0 8px hsl(0, 0%, 85%);
+}
+
+
+.svg-20 svg {
+    font-size: 20px;
+}

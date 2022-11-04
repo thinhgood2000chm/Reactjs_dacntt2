@@ -1,0 +1,37 @@
+.send-friend-request {
+    margin-right: 10px
+}
+
+.btn-dot {
+
+    background-color: rgba(201, 198, 198, 0.192);
+    position: absolute;
+    left: 90%;
+    border-radius: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+.btn-dot:hover {
+    background-color: rgba(167, 163, 163, 0.26);
+}
+
+.form-change-password {
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    width: 360px;
+    box-shadow: 0 0 32px hsl(24, 78%, 65%);
+}
+
+
+.form-change-password .form-color {
+    color: rgb(228, 153, 103);
+}
+
+.form-change-password>form>input:focus {
+    outline: none;
+}

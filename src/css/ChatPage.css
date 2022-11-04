@@ -1,0 +1,142 @@
+.chat-page{
+    box-sizing: border-box;
+    width: 75%;
+    max-width: 935px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.chat-page .title-row {
+    height: 60px;
+    display: flex;
+    text-align: center;
+}
+
+.chat-page .content-row {
+    height: 75vh;
+}
+
+/* align middle item */
+.chat-page .title-item {
+    font-weight: 500;
+    margin-block: auto;
+}
+
+
+/* title row */
+.chat-page .first-box {
+    width: 40%;
+    border: .5px rgb(201, 201, 201) solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px 0px 0px 0px;
+}
+
+.chat-page .second-box {
+    width: 60%;
+    border-width: .5px .5px .5px 0px;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 6px 0px 0px;
+}
+
+
+/* content row */
+.chat-page .third-box {
+    width: 40%;
+    border-width: 0px .5px .5px .5px;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-radius: 0px 0px 0px 6px;
+}
+
+.chat-page .fourth-box {
+    width: 60%;
+    border-width: 0px .5px .5px 0px;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    padding-left: 20px;
+    border-radius: 0px 0px 6px 0px;
+}
+
+
+.chat-page .user-img {
+    width: 35px;
+    height: 35px;
+    margin-block: auto;
+}
+
+.chat-page .user-img {
+    width: 35px;
+    height: 35px;
+    margin-block: auto;
+}
+
+.chat-page .user-name {
+    text-decoration: none;
+    color: black;
+}
+
+.chat-page .send-message {
+    background-color: #EDF2F7;
+    border: none;
+    border-radius: 6px;
+}
+
+.chat-page .message-input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.chat-page .author-message {
+    margin-top: 8px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 8px;
+}
+
+.chat-page .client-message {
+    margin-top: 8px;
+    margin-right: 16px;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.chat-page .author-message-content{
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 8px 16px 8px 16px;
+}
+
+.chat-page .client-message-content{
+    margin-left: 8px;
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    padding: 8px 16px 8px 16px;
+}
+
+.chat-page .friend-info {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px;
+}
+
+.chat-page .friend-info:hover {
+    background-color: whitesmoke;
+}
+
+.chat-page .active-chat {
+    background-color: rgba(223, 221, 221, .6);
+}
